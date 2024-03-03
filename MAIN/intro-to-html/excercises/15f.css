@@ -1,0 +1,53 @@
+body {
+  background-color: gray;
+  height: 3000px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+
+  border-radius: 6px;
+}
+
+img {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 6px;
+  object-position: center;
+}
+
+.discount-container {
+  position: absolute;
+  top: 15px;
+  right: 0px;
+  font-family: arial;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  padding-inline: 8px;
+  padding-block: 6px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.addtocart-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80px;
+  background-color: rgba(245, 245, 245, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addtocart-button {
+  border: 1px solid black;
+  padding-inline: 10px;
+  padding-block: 8px;
+  font-size: 15px;
+  font-family: arial;
+}

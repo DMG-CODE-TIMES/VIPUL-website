@@ -1,0 +1,26 @@
+p {
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.card {
+  display: inline-block;
+  width: 380px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+}
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+.subtitle {
+  color: gray;
+}

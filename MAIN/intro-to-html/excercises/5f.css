@@ -1,0 +1,23 @@
+p {
+  font-family: arial;
+}
+.amount {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+.span-currency {
+  color: grey;
+  font-size: 18px;
+}
+.profit-line {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: green;
+}
+.loss-line {
+  margin-top: 0;
+}
+.span-loss {
+  color: rgb(200, 44, 44);
+}

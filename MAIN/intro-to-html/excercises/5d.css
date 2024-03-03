@@ -1,0 +1,22 @@
+p {
+  font-family: arial;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.subtitle {
+  margin-bottom: 15px;
+}
+.learn-link {
+  color: rgb(26, 159, 211);
+  cursor: pointer;
+}
+
+.learn-link:hover {
+  text-decoration: underline;
+}

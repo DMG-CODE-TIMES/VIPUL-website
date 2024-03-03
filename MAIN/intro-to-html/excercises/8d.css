@@ -1,0 +1,41 @@
+input {
+  font-family: arial;
+  font-size: 16px;
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.first-name,
+.last-name {
+  width: 120px;
+}
+.email {
+  display: block;
+  width: 265px;
+}
+button {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  width: 285px;
+  border: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 10px;
+  margin-left: 0cqw;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+button:hover {
+  opacity: 0.8;
+}

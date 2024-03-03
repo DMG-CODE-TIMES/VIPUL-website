@@ -1,0 +1,16 @@
+.back-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.page {
+  margin-right: 10px;
+}
+
+.next-button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,68 @@
+a {
+  color: rgb(0, 113, 133);
+  transition: color 0.15s;
+}
+
+a:hover {
+  color: rgb(219, 119, 11);
+}
+
+.nike-head {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.value {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.addtocart-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+  vertical-align: top;
+}
+
+.addtocart-button:hover {
+  background-color: rgb(217, 182, 7);
+}
+
+.addtocart-button:active {
+  opacity: 0.7;
+}
+
+.buynow-button {
+  background-color: rgb(255, 164, 28);
+  color: black;
+  border: none;
+  height: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18px;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.15s, opacity 0.15s;
+  vertical-align: top;
+}
+
+.buynow-button:hover {
+  background-color: rgb(203, 126, 9);
+}
+
+.buynow-button:active {
+  opacity: 0.7;
+}

@@ -1,0 +1,28 @@
+p {
+  font-family: arial;
+}
+.red,
+      .green {
+        display: inline-block;
+      }
+      .red {
+        background-color: red;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+      }
+      .green {
+        background-color: green;
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+      }
+      .card {
+        width: 300px;
+
+        border-style: solid;
+        border-color: lightgray;
+        border-width: 1px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+      }
